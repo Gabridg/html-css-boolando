@@ -9,8 +9,18 @@ body {
     padding-top: 80px;
 }
 
-section {
+main {
     margin-bottom: 50px;
+}
+
+.container section {
+    padding-bottom: 50px;
+}
+
+footer {
+    height: 100px;
+    background-color: #1a1a1a;
+    color: #fff;
 }
 
 /* utilities */
@@ -146,7 +156,7 @@ section {
 /* main */
 
 .column {
-    height: 600px;
+    height: 700px;
     width: calc(100%/3);
     padding: 5px;
     margin-top: 50px;
@@ -181,4 +191,69 @@ section {
 
 .esprit {
     background-image: url('../img/6.webp');
+}
+
+/* hover prima row*/
+
+.lvs-fit:hover {
+    cursor: pointer;
+    background-image: url('../img/1b.webp');
+}
+
+.like:hover {
+    cursor: pointer;
+    color: #f00;
+}
+
+.rose:hover {
+    cursor: pointer;
+    background-image: url('../img/2b.webp');
+}
+
+.pastello:hover {
+    cursor: pointer;
+    background-image: url('../img/3b.webp');
+}
+
+.lvs:hover {
+    cursor: pointer;
+    background-image: url('../img/4b.webp');
+}
+
+.maya:hover {
+    background-image: url('../img/5b.webp');
+    cursor: pointer;
+}
+
+
+.esprit:hover {
+    cursor: pointer;
+    background-image: url('../img/6b.webp');
+}
+
+/* footer */
+
+.column-footer li {
+    list-style-type: none;
+}
+
+.column-footer a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5px;
+    font-size: 10px;
+}
+
+.f-big a {
+    font-size: 15px;
+}
+
+.footer-fl {
+    height: 80px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+a:hover {
+    color: #00f;
 }
