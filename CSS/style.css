@@ -9,6 +9,10 @@ body {
     padding-top: 80px;
 }
 
+section {
+    margin-bottom: 50px;
+}
+
 /* utilities */
 
 .container {
@@ -163,4 +167,18 @@ body {
 .column article {
     height: 100%;
     background-size: cover;
+}
+
+/* seconda row */
+
+.lvs {
+    background-image: url('../img/4.webp');
+}
+
+.maya {
+    background-image: url('../img/5.webp');
+}
+
+.esprit {
+    background-image: url('../img/6.webp');
 }
