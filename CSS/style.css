@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-top: 80px;
+}
+
 /* utilities */
 
 .container {
@@ -23,6 +27,7 @@
     color: #fff;
     font-weight: bold;
     font-family: sans-serif;
+    z-index: 1;
 }
 
 .flexbox {
@@ -37,6 +42,70 @@
     height: 80px;
     justify-content: space-between;
     flex-basis: 25%;
+}
+
+.discount {
+    width: 50px;
+    height: 20px;
+    padding: 2px;
+    background-color: #f00;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    text-align: center;
+}
+
+.eco {
+    width: 90px;
+    height: 20px;
+    padding: 2px;
+    background-color: #017f00;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 55px;
+    text-align: center;
+}
+
+.like {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size: 60px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    text-align: center;
+    padding: 5px;
+}
+
+.column article {
+    position: relative;
+}
+
+.brand {
+    font-size: 10px;
+    color: #6f7172;
+}
+
+.name-shirt {
+    font-weight: bold;
+}
+
+.offer {
+    color: #f00;
+    font-weight: bold;
+}
+
+.r-cost {
+    text-decoration: line-through;
+    color: #6f7172;
+    font-weight: bold;
 }
 
 /* Nav */
@@ -68,4 +137,30 @@
 
 .column-logo img {
     height: 40px;
+}
+
+/* main */
+
+.column {
+    height: 600px;
+    width: calc(100%/3);
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.lvs-fit {
+    background-image: url('../img/1.webp');
+}
+
+.rose {
+    background-image: url('../img/2.webp');
+}
+
+.pastello {
+    background-image: url('../img/3.webp');
+}
+
+.column article {
+    height: 100%;
+    background-size: cover;
 }
